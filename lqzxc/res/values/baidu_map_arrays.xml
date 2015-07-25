@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="entries_list_preferences_layers">
+        <item>@string/preferences_layers_normal</item>
+        <item>@string/preferences_layers_statellite</item>
+    </string-array>
+    <string-array name="entryvalues_list_preferences_layers">
+        <item>normal</item>
+        <item>statellite</item>
+    </string-array>
+    <string-array name="entries_list_preferences_compass_position">
+        <item>@string/preferences_lefttop</item>
+        <item>@string/preferences_righttop</item>
+    </string-array>
+    <string-array name="entryvalues_list_preferences_compass_position">
+        <item>lefttop</item>
+        <item>righttop</item>
+    </string-array>
+    <string-array name="entries_list_preferences_zoom">
+        <item>@string/preferences_zoom_custom</item>
+        <item>@string/preferences_zoom_system</item>
+    </string-array>
+    <string-array name="entryvalues_list_preferences_zoom">
+        <item>zoom_custom</item>
+        <item>zoom_system</item>
+    </string-array>
+    <string-array name="entries_list_preferences_location">
+        <item>@string/preferences_zoom_system</item>
+        <item>@string/preferences_zoom_custom</item>
+    </string-array>
+    <string-array name="entryvalues_list_preferences_location">
+        <item>system_location</item>
+        <item>custom_location</item>
+    </string-array>
+
+</resources>

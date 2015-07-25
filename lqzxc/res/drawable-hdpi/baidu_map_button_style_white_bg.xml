@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">  
+	<!-- 主体背景颜色值 ：先画一个矩形-->  
+	<item >   
+		<shape>   
+		    <!-- 圆角  --> 
+		    <corners android:radius="5.0dip" />
+		    
+			<!-- 主体填充  --> 
+		    <solid android:color="#9c9c9c" />  
+	     </shape>       
+	</item>
+	<!-- 主体颜色值  ：再画一个矩形覆盖在第一个之上--> 
+	<item
+	    android:top="1dip"
+	    android:left="1dip"
+	    android:right="1dip"
+	    android:bottom="1dip"> 
+		<shape>  
+		    <!-- 圆角  --> 
+		    <corners android:radius="5.0dip" />
+		    <!-- 渐变  --> 
+		    <gradient  
+			      android:startColor = "#f9f9f9" 
+			      android:endColor = "#e3e3e3"    
+			      android:angle = "270"/>  
+	    </shape>       
+	</item>
+</layer-list> 
+   

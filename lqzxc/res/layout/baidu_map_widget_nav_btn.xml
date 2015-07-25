@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_research"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@drawable/baidu_map_nav_btn_search_here_bg"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@drawable/baidu_map_nav_btn_delete_poi"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/locate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="55dip"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/baidu_map_nav_btn_loc" />
+
+    <LinearLayout
+        android:id="@+id/zoomContainer"
+        android:layout_width="40dip"
+        android:layout_height="75dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="40dip"
+        android:layout_marginRight="10dip"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/zoominBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baidu_map_nav_btn_zoomin"
+            android:contentDescription="放大" />
+
+        <ImageButton
+            android:id="@+id/zoomoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baidu_map_nav_btn_zoomout"
+            android:contentDescription="缩小" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="40dip" >
+
+        <Button
+            android:id="@+id/pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/baidu_map_nav_btn_node_pre"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/baidu_map_nav_btn_node_next" />
+    </LinearLayout>
+
+</RelativeLayout>

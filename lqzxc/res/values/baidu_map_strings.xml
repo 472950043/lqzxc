@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+	<!-- menu -->
+    <string name="menu_setting">设置</string>
+    <string name="menu_savescreen">截图</string>
+    <string name="menu_measure">测距</string>
+	<!-- preferences -->
+    <string name="preferences_layers_title">图层展示</string>
+    <string name="list_preferences_layers">基本图层</string>
+    <string name="list_preferences_layers_tip">选择一个基本图层</string>
+    <string name="preferences_layers_normal">普通图</string>
+    <string name="preferences_layers_statellite">卫星图</string>
+    <string name="preferences_layers_traffic">交通图</string>
+    <string name="preferences_layers_traffic_tip">是否在基本图层上覆盖交通信息</string>
+    
+    <string name="preferences_map_controller_title">地图操作</string>
+    <string name="preferences_zoomlevel">缩放级别</string>
+    <string name="preferences_zoomlevel_key">12</string>
+    <string name="preferences_zoomlevel_tip">缩放级别范围:[3.0,19.0]</string>
+    <string name="preferences_rotateangle">旋转</string>
+    <string name="preferences_rotateangle_key">0</string>
+    <string name="preferences_rotateangle_tip">旋转角范围:0 ~ 360,单位:度</string>
+    <string name="preferences_overlookangle">俯视</string>
+    <string name="preferences_overlookangle_key">0</string>
+    <string name="preferences_overlookangle_tip">俯角范围:0 ~ 45,单位:度</string>
+    
+	<string name="preferences_ui_setting_title">3D手势</string>
+    <string name="preferences_zoom">缩放手势</string>
+    <string name="preferences_zoom_tip">两只手指同时分开为放大,同时合并为缩小</string>
+    <string name="preferences_scroll">平移手势</string>
+    <string name="preferences_scroll_tip">一只手指按住连续拖动</string>
+    <string name="preferences_doubleClick">双击放大</string>
+    <string name="preferences_doubleClick_tip">一只手指快速双击,地图将放大一个级别</string>
+    <string name="preferences_rotate">旋转手势手势</string>
+    <string name="preferences_rotate_tip">两个手指在地图上顺（逆）时针转动</string>
+    <string name="preferences_overlook">俯视手势</string>
+    <string name="preferences_overlook_tip">两个手指同时触碰屏幕往下滑</string>
+    
+   	<string name="preferences_ui_Control_title">UI控件</string>
+    <string name="preferences_scale">显示比例尺</string>
+    <string name="preferences_scale_tip">比例尺默认显示在地图左下角</string>
+    <string name="preferences_auto_locate">自动定位</string>
+    <string name="preferences_auto_locate_tip">定位成功将自动移动到“我的位置”</string>
+    <string name="preferences_search_num">最大显示职位数</string>
+    <string name="preferences_search_num_tip">整数有效,0表示不限</string>
+    <string name="list_preferences_compass">指南针位置</string>
+    <string name="preferences_lefttop">左上角</string>
+    <string name="preferences_righttop">右上角</string>
+    <string name="list_preferences_location">“我的位置”图标类型</string>
+    <string name="preferences_location_system">系统图标</string>
+    <string name="preferences_location_custom">自定义图标</string>
+    <string name="preferences_zoom_control">缩放控件</string>
+    <string name="list_preferences_zoom_control">缩放控件类型</string>
+    <string name="preferences_zoom_custom">自定义缩放控件</string>
+    <string name="preferences_zoom_system">系统缩放控件</string>
+    
+    <string name="preferences_offline_title">离线地图</string>
+    <string name="preferences_offline">离线地图设置</string>
+    
+    <string name="ml_string_go">从这出发</string>
+    <string name="ml_string_near_search">在附近找</string>
+    <string name="ml_string_share">分享</string>
+    <string name="ml_string_favorite">收藏</string>
+    
+    
+</resources>

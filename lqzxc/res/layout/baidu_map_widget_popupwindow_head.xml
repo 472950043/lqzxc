@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baidu_map_title_bg"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/title_btn_left"
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/baidu_map_button_style_white"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:padding="3dip"
+            android:src="@drawable/baidu_map_back_btn" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="公交方案"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="22.6dip"
+                android:layout_height="30.6dip"
+                android:layout_margin="5dip"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baidu_map_nav_route_result_start_point" />
+
+            <TextView
+                android:id="@+id/start_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="我的位置"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="22.6dip"
+                android:layout_height="30.6dip"
+                android:layout_margin="5dip"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baidu_map_nav_route_result_end_point" />
+
+            <TextView
+                android:id="@+id/end_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="我的位置"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_nav"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/btn_car"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baidu_map_button_style_white" >
+
+            <ImageView
+                android:id="@+id/img_car"
+                android:layout_width="22.6dip"
+                android:layout_height="30.6dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baidu_map_btn_icon_car" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_car"
+                android:gravity="center"
+                android:text="导航"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_simulate_car"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baidu_map_button_style_white" >
+
+            <ImageView
+                android:id="@+id/img_simulate_car"
+                android:layout_width="22.6dip"
+                android:layout_height="30.6dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baidu_map_btn_icon_simulate_car" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_simulate_car"
+                android:gravity="center"
+                android:text="模拟导航"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
