@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * 地图菜单配置文件
+ * @author 蒋悦斌
+ * @version 百度地图SDK 2.1.3
+ * @created 2013-8-15
+ */
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_layers_title" >
+        <ListPreference
+            android:defaultValue="normal"
+            android:entries="@array/entries_list_preferences_layers"
+            android:entryValues="@array/entryvalues_list_preferences_layers"
+            android:key="list_preferences_layers"
+            android:summary="@string/list_preferences_layers_tip"
+            android:title="@string/list_preferences_layers" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preferences_layers_traffic"
+            android:summary="@string/preferences_layers_traffic_tip"
+            android:title="@string/preferences_layers_traffic" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_sensor"
+            android:summary="是否让百度地图自动感应横屏"
+            android:title="横屏" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_map_controller_title" >
+        <EditTextPreference
+            android:defaultValue="@string/preferences_zoomlevel_key"
+            android:key="preferences_zoomlevel"
+            android:summary="@string/preferences_zoomlevel_tip"
+            android:title="@string/preferences_zoomlevel" />
+        <EditTextPreference
+            android:defaultValue="@string/preferences_rotateangle_key"
+            android:key="preferences_rotateangle"
+            android:summary="@string/preferences_rotateangle_tip"
+            android:title="@string/preferences_rotateangle" />
+        <EditTextPreference
+            android:defaultValue="@string/preferences_overlookangle_key"
+            android:key="preferences_overlookangle"
+            android:summary="@string/preferences_overlookangle_tip"
+            android:title="@string/preferences_overlookangle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_ui_setting_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_zoom"
+            android:summary="@string/preferences_zoom_tip"
+            android:title="@string/preferences_zoom" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_scroll"
+            android:summary="@string/preferences_scroll_tip"
+            android:title="@string/preferences_scroll" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_doubleClick"
+            android:summary="@string/preferences_doubleClick_tip"
+            android:title="@string/preferences_doubleClick" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_rotate"
+            android:summary="@string/preferences_rotate_tip"
+            android:title="@string/preferences_rotate" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_overlook"
+            android:summary="@string/preferences_overlook_tip"
+            android:title="@string/preferences_overlook" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_ui_Control_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_scale"
+            android:summary="@string/preferences_scale_tip"
+            android:title="@string/preferences_scale" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_auto_locate"
+            android:summary="@string/preferences_auto_locate_tip"
+            android:title="@string/preferences_auto_locate" />
+
+        <ListPreference
+            android:defaultValue="lefttop"
+            android:entries="@array/entries_list_preferences_compass_position"
+            android:entryValues="@array/entryvalues_list_preferences_compass_position"
+            android:key="list_preferences_compass_position"
+            android:title="@string/list_preferences_compass" />
+        <ListPreference
+            android:defaultValue="system_location"
+            android:entries="@array/entries_list_preferences_location"
+            android:entryValues="@array/entryvalues_list_preferences_location"
+            android:key="list_preferences_location"
+            android:title="@string/list_preferences_location" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preferences_zoom_control"
+            android:title="@string/preferences_zoom_control" />
+
+        <ListPreference
+            android:defaultValue="zoom_custom"
+            android:dependency="preferences_zoom_control"
+            android:entries="@array/entries_list_preferences_zoom"
+            android:entryValues="@array/entryvalues_list_preferences_zoom"
+            android:key="list_preferences_zoom_control"
+            android:title="@string/list_preferences_zoom_control" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="工具栏" >
+        <Preference
+            android:key="preferences_savescreen"
+            android:summary="图片保存在SD卡根目录下的DCIM文件夹"
+            android:title="截图" />
+        <Preference
+            android:key="preferences_measure"
+            android:title="测距" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/xml/baidu_map_preferences.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/baidu_map_progressbar_background" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <nine-patch android:src="@drawable/baidu_map_progressbar_normal" />
+        </clip>
+    </item>
+</layer-list>
+<!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/drawable-hdpi/baidu_map_progressbar.xml -->

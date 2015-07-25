@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">  
+	<!-- 主体背景颜色值 ：先画一个矩形-->  
+	<item >   
+		<shape>   
+		    <!-- 圆角  --> 
+		    <corners android:topLeftRadius="5.0dip" android:topRightRadius="5.0dip"/>
+		    
+			<!-- 主体填充  --> 
+		    <solid android:color="#a5a5a5" />  
+	     </shape>       
+	</item>
+	<!-- 主体颜色值  ：再画一个矩形覆盖在第一个之上--> 
+	<item
+	    android:bottom="1dip"> 
+		<shape>   
+		    <!-- 圆角  --> 
+		    <corners android:topLeftRadius="5.0dip" android:topRightRadius="5.0dip"/>
+		    <!-- 渐变  --> 
+		    <gradient  
+			      android:startColor = "#f0f0f0" 
+			      android:endColor = "#dcdcdc"    
+			      android:angle = "270"/>  
+	    </shape>       
+	</item>
+</layer-list> 
+   
+<!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/drawable-hdpi/baidu_map_title_bg.xml -->

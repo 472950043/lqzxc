@@ -48,6 +48,9 @@ public class Bike {
 		for (int i = 0; i < mAppContext.mBikeSties.size(); i++) {
 			// 准备overlay数据
 			BikeStie mBikeStie = mAppContext.mBikeSties.get(i);
+			if(mBikeStie.getmGeoPoint() == null){
+				continue;
+			}
 			// 添加一个点
 			addBike(mBikeStie.getmGeoPoint(), mBikeStie.getId() + "." + mBikeStie.getNetName() ,mBikeStie.getNetStatus());
 		}

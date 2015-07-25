@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/baidu_map_title_bg" >
+
+    <RelativeLayout
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:background="@drawable/baidu_map_button_style_white"
+            android:contentDescription="@null"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:src="@drawable/baidu_map_button_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/btn_transit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/mode_transit"
+                android:layout_width="50dip"
+                android:layout_height="30dip"
+                android:background="@drawable/baidu_map_mode_transit"
+                android:duplicateParentState="true"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/mode_drive"
+                android:layout_width="50dip"
+                android:layout_height="30dip"
+                android:background="@drawable/baidu_map_mode_driving"
+                android:duplicateParentState="true"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/mode_walk"
+                android:layout_width="50dip"
+                android:layout_height="30dip"
+                android:background="@drawable/baidu_map_mode_walk"
+                android:duplicateParentState="true"
+                android:gravity="center" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:background="@drawable/baidu_map_button_style_white"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#333"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/layout/baidu_map_widget_mode.xml -->

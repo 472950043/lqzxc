@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/none"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="对不起，您还没有访问记录"
+        android:textColor="#333" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="#dddddd"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:listSelector="#00000000" >
+    </ListView>
+
+</RelativeLayout><!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/layout/fragment_listview.xml -->

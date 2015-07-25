@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginRight="50dip"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center"
+            android:text="台州市"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_toRightOf="@+id/title"
+            android:gravity="left|center"
+            android:text="最新"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center"
+            android:text="50%"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_ensable"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/baidu_map_progressbar" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_disable"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/baidu_map_progressbar_disable" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/enabled"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/listview_selector"
+        android:contentDescription="@null"
+        android:padding="10dip"
+        android:src="@drawable/baidu_map_download_enabled" />
+
+    <ImageView
+        android:id="@+id/disabled"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/listview_selector"
+        android:contentDescription="@null"
+        android:padding="10dip"
+        android:src="@drawable/baidu_map_download_disabled" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/listview_selector"
+        android:contentDescription="@null"
+        android:padding="10dip"
+        android:src="@drawable/baidu_map_download_pause" />
+
+</RelativeLayout><!-- From: file:/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/src/main/res/layout/baidu_map_widget_update.xml -->

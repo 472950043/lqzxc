@@ -95,8 +95,12 @@ public class ViewSearch extends LinearLayout {
 				TextView textview = (TextView) view.findViewById(R.id.netName);
 				mAppContext.mBikeStie = (BikeStie) textview.getTag();
 				mAppContext.mApiClient.visitUpdate(mAppContext.mBikeStie.getMid());
-				mContext.startActivity(new Intent(mContext, MapActivity.class));
-				System.out.println("x:" +mAppContext.mBikeStie.getGpsx() + "y:" + mAppContext.mBikeStie.getGpsy());
+				if(mAppContext.mBikeStie.getmGeoPoint() == null){
+					mAppContext.ToastMessage(mContext, "对不起，该点位置信息错误");
+				} else {
+					mContext.startActivity(new Intent(mContext, MapActivity.class));
+					System.out.println("x:" +mAppContext.mBikeStie.getGpsx() + "y:" + mAppContext.mBikeStie.getGpsy());
+				}
 			}
 		});
 
@@ -109,8 +113,12 @@ public class ViewSearch extends LinearLayout {
 				TextView textview = (TextView) view.findViewById(R.id.netName);
 				mAppContext.mBikeStie = (BikeStie) textview.getTag();
 				mAppContext.mApiClient.visitUpdate(mAppContext.mBikeStie.getMid());
-				mContext.startActivity(new Intent(mContext, MapActivity.class));
-				System.out.println("x:" +mAppContext.mBikeStie.getGpsx() + "y:" + mAppContext.mBikeStie.getGpsy());
+				if(mAppContext.mBikeStie.getmGeoPoint() == null){
+					mAppContext.ToastMessage(mContext, "对不起，该点位置信息错误");
+				} else {
+					mContext.startActivity(new Intent(mContext, MapActivity.class));
+					System.out.println("x:" +mAppContext.mBikeStie.getGpsx() + "y:" + mAppContext.mBikeStie.getGpsy());
+				}
 			}
 		});
 	}

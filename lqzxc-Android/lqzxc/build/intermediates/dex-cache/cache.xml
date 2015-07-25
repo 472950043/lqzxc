@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-23ff4d6d297cf5f29c3954f8ddbd4ce0e8ff1a2f.jar" />
+    </item>
+    <item
+        jar="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/libs/umeng_sdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="653c94cb79c8cc409b308c49e21581fe07292ce2">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/umeng_sdk-2d009ecd757fe7eabac3f2a37ae526f0feaf12f8.jar" />
+    </item>
+    <item
+        jar="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/libs/baidumapapi_v2_3_5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6429ce78a21922061e3f89d2a707fe3c9f5de7d">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/baidumapapi_v2_3_5-9503cae0c9ec231e9bdb42f01472fb2014cbe13f.jar" />
+    </item>
+    <item
+        jar="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/libs/app.imageloader.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ebaea94d48c1605002974302974292a32d0f29db">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/app.imageloader-c8d5bcabf1cafc5f15ff226203dab05a172658d5.jar" />
+    </item>
+    <item
+        jar="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/libs/locSDK_4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b405c3054e12d913fa5aafb160c294e642dc673">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/locSDK_4.0-434ffa36d45cb266605ba2f8ee4addb8bc0f48f2.jar" />
+    </item>
+    <item
+        jar="/Volumes/Yosemite/work/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/jyb/lqzxc/lqzxc-Android/lqzxc/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-07003184a8630dd2ba2bfa791da1c97c9343f657.jar" />
+    </item>
+
+</items>
