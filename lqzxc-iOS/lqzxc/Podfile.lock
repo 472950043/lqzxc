@@ -1,0 +1,17 @@
+PODS:
+  - BaiduMapAPI (2.8.0):
+    - BaiduMapAPI/All (= 2.8.0)
+  - BaiduMapAPI/All (2.8.0):
+    - BaiduMapAPI/Core
+    - BaiduMapAPI/Extend
+  - BaiduMapAPI/Core (2.8.0)
+  - BaiduMapAPI/Extend (2.8.0):
+    - BaiduMapAPI/Core
+
+DEPENDENCIES:
+  - BaiduMapAPI (~> 2.8.0)
+
+SPEC CHECKSUMS:
+  BaiduMapAPI: e066aa1e85f9fee77a1bc071afb67552852bb0fb
+
+COCOAPODS: 0.37.2

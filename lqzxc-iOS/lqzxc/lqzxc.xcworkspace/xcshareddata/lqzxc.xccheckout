@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13C9A752-0FA9-47C3-A114-E455872A5F16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lqzxc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CBE3AD15F653B8C1F198A9707C8FF93A49C4CA73</key>
+		<string>https://github.com/472950043/lqzxc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lqzxc-iOS/lqzxc/lqzxc.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CBE3AD15F653B8C1F198A9707C8FF93A49C4CA73</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/472950043/lqzxc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CBE3AD15F653B8C1F198A9707C8FF93A49C4CA73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CBE3AD15F653B8C1F198A9707C8FF93A49C4CA73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lqzxc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

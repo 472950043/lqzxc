@@ -493,7 +493,7 @@ public class ApiClient {
 	public GeoPoint stringToGeoPoint(String lat, String lng) {
 		// TODO Auto-generated method stub
 		if(lat.length() + lng.length() < 3){
-            return null;
+            return stringToGeoPoint("28.111111", "121.111111");
         }
 		return new GeoPoint(
 				(int) (Double.parseDouble(lat) * 1E6),

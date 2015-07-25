@@ -86,7 +86,11 @@ public class AppContext extends Application {
     /*注意：为了给用户提供更安全的服务，Android SDK自v2.1.3版本开始采用了全新的Key验证体系。
 	因此，当您选择使用v2.1.3及之后版本的SDK时，需要到新的Key申请页面进行全新Key的申请，
 	申请及配置流程请参考开发指南的对应章节*/
-    public static final String strKey = "qmZtcvk9LG2UFTHiKKXD2Vcd";
+	//发布
+//    public static final String strKey = "qmZtcvk9LG2UFTHiKKXD2Vcd";
+	//3F:0D:C1:2F:C6:72:29:06:55:66:F3:E6:E1:19:AF:14:D1:C5:B1:03;com.lqzxc
+    //开发
+    public static final String strKey = "VkmwFdgD5vDaGxglWfAZw7dE";
 	//3F:0D:C1:2F:C6:72:29:06:55:66:F3:E6:E1:19:AF:14:D1:C5:B1:03;com.lqzxc
     
 	public ApiClient mApiClient;
