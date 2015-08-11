@@ -13,9 +13,27 @@
 		0E0EAA581B63706300A5896B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0EAA571B63706300A5896B /* Images.xcassets */; };
 		0E0EAA5B1B63706300A5896B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0EAA591B63706300A5896B /* LaunchScreen.xib */; };
 		0E0EAA671B63706300A5896B /* lqzxcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0EAA661B63706300A5896B /* lqzxcTests.swift */; };
+		0E523B851B6DFA7D0041AF23 /* MapLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E523B841B6DFA7D0041AF23 /* MapLayer.swift */; };
+		0E523B871B6DFB080041AF23 /* MapLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E523B861B6DFB080041AF23 /* MapLayer.xib */; };
+		0E6F902D1B671C3400B11752 /* MakeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F902C1B671C3400B11752 /* MakeTableView.swift */; };
+		0E6F902F1B672A5400B11752 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F902E1B672A5400B11752 /* MainViewController.swift */; };
+		0E6F90311B67343000B11752 /* BikeProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F90301B67343000B11752 /* BikeProperty.plist */; };
+		0E7600A21B68C54400403898 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7600A01B68C54400403898 /* DetailView.swift */; };
+		0E7600A31B68C54400403898 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7600A11B68C54400403898 /* DetailView.xib */; };
+		0E8B4D531B6C6689003C5EDA /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8B4D521B6C6689003C5EDA /* MyTableViewController.swift */; };
+		0E8B4D5D1B6C9702003C5EDA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8B4D5B1B6C9702003C5EDA /* MapViewController.swift */; };
+		0E8B4D5E1B6C9702003C5EDA /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8B4D5C1B6C9702003C5EDA /* MapViewController.xib */; };
+		0E8B4D601B6C9E70003C5EDA /* MapDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8B4D5F1B6C9E70003C5EDA /* MapDefaults.swift */; };
+		0E8DB6A81B76D3BE00F5118B /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DB6A61B76D3BE00F5118B /* OfflineViewController.swift */; };
+		0E8DB6A91B76D3BE00F5118B /* OfflineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DB6A71B76D3BE00F5118B /* OfflineViewController.xib */; };
+		0E8DB6AB1B76E08400F5118B /* offline_search_city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DB6AA1B76E08400F5118B /* offline_search_city.plist */; };
+		0E935FEF1B6A5D9700072436 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E935FEE1B6A5D9700072436 /* LocationTableViewController.swift */; };
 		0EAA23421B639B4500862DD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA23411B639B4500862DD7 /* TableViewController.swift */; };
 		0EAA23441B639B7A00862DD7 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA23431B639B7A00862DD7 /* LibraryAPI.swift */; };
 		0EAA23461B639BEE00862DD7 /* BikeStie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA23451B639BEE00862DD7 /* BikeStie.swift */; };
+		0ED14B4B1B788300005B203D /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED14B491B788300005B203D /* CityTableViewCell.swift */; };
+		0ED14B4C1B788300005B203D /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED14B4A1B788300005B203D /* CityTableViewCell.xib */; };
+		0EF5433B1B784CFA00A84259 /* OfflineShuoMing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5433A1B784CFA00A84259 /* OfflineShuoMing.swift */; };
 		D18702A1BDB06C1160831E27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3CDE8CFF28FE9EC78BAFDD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +58,28 @@
 		0E0EAA601B63706300A5896B /* lqzxcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lqzxcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0EAA651B63706300A5896B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E0EAA661B63706300A5896B /* lqzxcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lqzxcTests.swift; sourceTree = "<group>"; };
+		0E523B841B6DFA7D0041AF23 /* MapLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLayer.swift; sourceTree = "<group>"; };
+		0E523B861B6DFB080041AF23 /* MapLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapLayer.xib; sourceTree = "<group>"; };
+		0E6F902C1B671C3400B11752 /* MakeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTableView.swift; sourceTree = "<group>"; };
+		0E6F902E1B672A5400B11752 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0E6F90301B67343000B11752 /* BikeProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BikeProperty.plist; sourceTree = "<group>"; };
+		0E7600A01B68C54400403898 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0E7600A11B68C54400403898 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		0E8B4D521B6C6689003C5EDA /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		0E8B4D5B1B6C9702003C5EDA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0E8B4D5C1B6C9702003C5EDA /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		0E8B4D5F1B6C9E70003C5EDA /* MapDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDefaults.swift; sourceTree = "<group>"; };
+		0E8DB6A61B76D3BE00F5118B /* OfflineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		0E8DB6A71B76D3BE00F5118B /* OfflineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfflineViewController.xib; sourceTree = "<group>"; };
+		0E8DB6AA1B76E08400F5118B /* offline_search_city.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = offline_search_city.plist; sourceTree = "<group>"; };
+		0E935FEE1B6A5D9700072436 /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
 		0EAA233D1B6372C000862DD7 /* lqzxc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lqzxc-Bridging-Header.h"; sourceTree = "<group>"; };
 		0EAA23411B639B4500862DD7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0EAA23431B639B7A00862DD7 /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 		0EAA23451B639BEE00862DD7 /* BikeStie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStie.swift; sourceTree = "<group>"; };
+		0ED14B491B788300005B203D /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		0ED14B4A1B788300005B203D /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		0EF5433A1B784CFA00A84259 /* OfflineShuoMing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineShuoMing.swift; sourceTree = "<group>"; };
 		ABF291C82C6ADB9C7A905C89 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CB88F6023489DD5479BD108B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD3CDE8CFF28FE9EC78BAFDD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,10 +131,15 @@
 				0E0EAA541B63706300A5896B /* Main.storyboard */,
 				0EAA23431B639B7A00862DD7 /* LibraryAPI.swift */,
 				0EAA23451B639BEE00862DD7 /* BikeStie.swift */,
-				0EAA23411B639B4500862DD7 /* TableViewController.swift */,
+				0E6F902E1B672A5400B11752 /* MainViewController.swift */,
+				0E8B4D521B6C6689003C5EDA /* MyTableViewController.swift */,
+				0E935FEE1B6A5D9700072436 /* LocationTableViewController.swift */,
 				0E0EAA521B63706300A5896B /* ViewController.swift */,
+				0EAA23411B639B4500862DD7 /* TableViewController.swift */,
+				0E6F902C1B671C3400B11752 /* MakeTableView.swift */,
 				0E0EAA571B63706300A5896B /* Images.xcassets */,
 				0E0EAA591B63706300A5896B /* LaunchScreen.xib */,
+				0E8B4D5A1B6C9702003C5EDA /* BaiduMap */,
 				0E0EAA4E1B63706300A5896B /* Supporting Files */,
 			);
 			path = lqzxc;
@@ -107,6 +148,9 @@
 		0E0EAA4E1B63706300A5896B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E7600A01B68C54400403898 /* DetailView.swift */,
+				0E7600A11B68C54400403898 /* DetailView.xib */,
+				0E6F90301B67343000B11752 /* BikeProperty.plist */,
 				0E0EAA4F1B63706300A5896B /* Info.plist */,
 				0EAA233D1B6372C000862DD7 /* lqzxc-Bridging-Header.h */,
 			);
@@ -128,6 +172,24 @@
 				0E0EAA651B63706300A5896B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E8B4D5A1B6C9702003C5EDA /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				0E8B4D5B1B6C9702003C5EDA /* MapViewController.swift */,
+				0E8B4D5C1B6C9702003C5EDA /* MapViewController.xib */,
+				0E8B4D5F1B6C9E70003C5EDA /* MapDefaults.swift */,
+				0E523B841B6DFA7D0041AF23 /* MapLayer.swift */,
+				0E523B861B6DFB080041AF23 /* MapLayer.xib */,
+				0E8DB6A61B76D3BE00F5118B /* OfflineViewController.swift */,
+				0E8DB6A71B76D3BE00F5118B /* OfflineViewController.xib */,
+				0EF5433A1B784CFA00A84259 /* OfflineShuoMing.swift */,
+				0E8DB6AA1B76E08400F5118B /* offline_search_city.plist */,
+				0ED14B491B788300005B203D /* CityTableViewCell.swift */,
+				0ED14B4A1B788300005B203D /* CityTableViewCell.xib */,
+			);
+			path = BaiduMap;
 			sourceTree = "<group>";
 		};
 		35C4AD05A3B7F1CD9F3C763A /* Frameworks */ = {
@@ -230,9 +292,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED14B4C1B788300005B203D /* CityTableViewCell.xib in Resources */,
+				0E6F90311B67343000B11752 /* BikeProperty.plist in Resources */,
+				0E8B4D5E1B6C9702003C5EDA /* MapViewController.xib in Resources */,
+				0E523B871B6DFB080041AF23 /* MapLayer.xib in Resources */,
 				0E0EAA561B63706300A5896B /* Main.storyboard in Resources */,
+				0E8DB6AB1B76E08400F5118B /* offline_search_city.plist in Resources */,
+				0E8DB6A91B76D3BE00F5118B /* OfflineViewController.xib in Resources */,
 				0E0EAA5B1B63706300A5896B /* LaunchScreen.xib in Resources */,
 				0E0EAA581B63706300A5896B /* Images.xcassets in Resources */,
+				0E7600A31B68C54400403898 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +352,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8B4D5D1B6C9702003C5EDA /* MapViewController.swift in Sources */,
+				0E6F902F1B672A5400B11752 /* MainViewController.swift in Sources */,
+				0E8B4D601B6C9E70003C5EDA /* MapDefaults.swift in Sources */,
+				0E7600A21B68C54400403898 /* DetailView.swift in Sources */,
+				0E935FEF1B6A5D9700072436 /* LocationTableViewController.swift in Sources */,
+				0E8B4D531B6C6689003C5EDA /* MyTableViewController.swift in Sources */,
 				0E0EAA531B63706300A5896B /* ViewController.swift in Sources */,
 				0EAA23421B639B4500862DD7 /* TableViewController.swift in Sources */,
+				0E8DB6A81B76D3BE00F5118B /* OfflineViewController.swift in Sources */,
 				0EAA23461B639BEE00862DD7 /* BikeStie.swift in Sources */,
 				0EAA23441B639B7A00862DD7 /* LibraryAPI.swift in Sources */,
+				0E523B851B6DFA7D0041AF23 /* MapLayer.swift in Sources */,
+				0EF5433B1B784CFA00A84259 /* OfflineShuoMing.swift in Sources */,
 				0E0EAA511B63706300A5896B /* AppDelegate.swift in Sources */,
+				0ED14B4B1B788300005B203D /* CityTableViewCell.swift in Sources */,
+				0E6F902D1B671C3400B11752 /* MakeTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

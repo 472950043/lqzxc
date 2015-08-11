@@ -1,0 +1,6 @@
+module BaiduMapAPI {
+  umbrella header "BaiduMapAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

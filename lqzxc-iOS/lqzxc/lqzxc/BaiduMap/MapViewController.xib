@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController" customModule="lqzxc" customModuleProvider="target">
+            <connections>
+                <outlet property="locationBtn" destination="fbn-nx-Y11" id="oyK-hx-iGf"/>
+                <outlet property="mapLayerBtn" destination="b86-Y2-vgx" id="bA6-JV-PYu"/>
+                <outlet property="mapView" destination="QDI-ED-t2A" id="Udt-VP-eR8"/>
+                <outlet property="trafficBtn" destination="iHp-aW-VPE" id="2UA-UI-oqM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zoominBtn" destination="l96-Wr-zHB" id="kKs-Cd-NUj"/>
+                <outlet property="zoomoutBtn" destination="AZo-6u-bvf" id="NKa-D0-rdg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDI-ED-t2A" customClass="BMKMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9g-st-KPd">
+                    <rect key="frame" x="0.0" y="554" width="600" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="rJp-UP-jXu"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHp-aW-VPE" userLabel="Traffic">
+                    <rect key="frame" x="554" y="30" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Kju-58-n4L"/>
+                        <constraint firstAttribute="height" constant="40" id="h8Y-lQ-Lih"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                    <state key="normal" image="button_main_traffic_off" backgroundImage="button_main_sel_background_light">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="button_main_traffic_on"/>
+                    <connections>
+                        <action selector="trafficBtnClick:" destination="-1" eventType="touchUpInside" id="igu-s6-4dU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b86-Y2-vgx" userLabel="MapLayer">
+                    <rect key="frame" x="554" y="75" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="7IW-HT-Pcz"/>
+                        <constraint firstAttribute="height" constant="40" id="edz-yZ-Ks1"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                    <state key="normal" image="button_main_layer" backgroundImage="button_main_sel_background_light">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="mapLayerBtnClick:" destination="-1" eventType="touchUpInside" id="ZjI-96-PqB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-nx-Y11" userLabel="Location">
+                    <rect key="frame" x="6" y="504" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="6pT-W8-BPK"/>
+                        <constraint firstAttribute="height" constant="40" id="y2U-Hh-xmc"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                    <state key="normal" image="icon_location_button" backgroundImage="button_main_background">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="button_main_sel_background"/>
+                    <state key="highlighted" backgroundImage="button_main_sel_background"/>
+                    <connections>
+                        <action selector="locationBtnClick:" destination="-1" eventType="touchUpInside" id="v8z-18-W7L"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoV-nK-zUg">
+                    <rect key="frame" x="554" y="460" width="40" height="80"/>
+                    <subviews>
+                        <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l96-Wr-zHB" userLabel="Zoomin">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <state key="normal" image="button_main_zoomin" backgroundImage="button_main_zoomin_background_normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="button_main_zoomin_background"/>
+                            <connections>
+                                <action selector="zoomBtnClick:" destination="-1" eventType="touchUpInside" id="sMS-Ve-eka"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZo-6u-bvf" userLabel="Zoomout">
+                            <rect key="frame" x="0.0" y="40" width="40" height="40"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <state key="normal" image="button_main_zoomout" backgroundImage="button_main_zoomout_background_normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="button_main_zoomout_background"/>
+                            <connections>
+                                <action selector="zoomBtnClick:" destination="-1" eventType="touchUpInside" id="vij-u1-RWT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="AZo-6u-bvf" firstAttribute="top" secondItem="l96-Wr-zHB" secondAttribute="bottom" id="1ZM-4K-xVE"/>
+                        <constraint firstItem="l96-Wr-zHB" firstAttribute="leading" secondItem="BoV-nK-zUg" secondAttribute="leading" id="Hix-Jf-TtZ"/>
+                        <constraint firstItem="l96-Wr-zHB" firstAttribute="top" secondItem="BoV-nK-zUg" secondAttribute="top" id="KKh-tl-5Se"/>
+                        <constraint firstAttribute="height" constant="80" id="Ryc-oe-EMx"/>
+                        <constraint firstAttribute="width" constant="40" id="VTN-yQ-Vyd"/>
+                        <constraint firstAttribute="trailing" secondItem="AZo-6u-bvf" secondAttribute="trailing" id="XTR-rN-Z9x"/>
+                        <constraint firstAttribute="trailing" secondItem="l96-Wr-zHB" secondAttribute="trailing" id="cf1-OA-kBx"/>
+                        <constraint firstAttribute="bottom" secondItem="AZo-6u-bvf" secondAttribute="bottom" id="hDN-tK-aOQ"/>
+                        <constraint firstItem="AZo-6u-bvf" firstAttribute="leading" secondItem="BoV-nK-zUg" secondAttribute="leading" id="twP-Bk-479"/>
+                        <constraint firstItem="AZo-6u-bvf" firstAttribute="height" secondItem="l96-Wr-zHB" secondAttribute="height" id="vuX-nz-xuR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="b86-Y2-vgx" secondAttribute="trailing" constant="6" id="0Dl-HJ-URR"/>
+                <constraint firstAttribute="bottom" secondItem="QDI-ED-t2A" secondAttribute="bottom" id="4Od-lh-lW9"/>
+                <constraint firstItem="QDI-ED-t2A" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6Nv-Hw-7MG"/>
+                <constraint firstItem="Q9g-st-KPd" firstAttribute="top" secondItem="fbn-nx-Y11" secondAttribute="bottom" constant="10" id="B40-JH-SnB"/>
+                <constraint firstAttribute="trailing" secondItem="BoV-nK-zUg" secondAttribute="trailing" constant="6" id="E1a-Hf-5wK"/>
+                <constraint firstAttribute="trailing" secondItem="QDI-ED-t2A" secondAttribute="trailing" id="Vtg-Lp-oEZ"/>
+                <constraint firstItem="iHp-aW-VPE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="X63-BJ-N1s"/>
+                <constraint firstItem="Q9g-st-KPd" firstAttribute="top" secondItem="BoV-nK-zUg" secondAttribute="bottom" constant="14" id="ccM-7E-zsv"/>
+                <constraint firstAttribute="trailing" secondItem="Q9g-st-KPd" secondAttribute="trailing" id="fnp-WE-Yqn"/>
+                <constraint firstItem="QDI-ED-t2A" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gfY-vS-Yxo"/>
+                <constraint firstItem="b86-Y2-vgx" firstAttribute="top" secondItem="iHp-aW-VPE" secondAttribute="bottom" constant="5" id="n1O-c3-y46"/>
+                <constraint firstAttribute="trailing" secondItem="iHp-aW-VPE" secondAttribute="trailing" constant="6" id="qMk-m7-yTy"/>
+                <constraint firstItem="Q9g-st-KPd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tB2-dD-RBz"/>
+                <constraint firstItem="fbn-nx-Y11" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="6" id="ydW-1c-rcq"/>
+                <constraint firstAttribute="bottom" secondItem="Q9g-st-KPd" secondAttribute="bottom" constant="6" id="zvs-KS-U2Y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_main_background" width="38" height="38"/>
+        <image name="button_main_layer" width="27" height="27"/>
+        <image name="button_main_sel_background" width="38" height="38"/>
+        <image name="button_main_sel_background_light" width="38" height="38"/>
+        <image name="button_main_traffic_off" width="27" height="27"/>
+        <image name="button_main_traffic_on" width="27" height="27"/>
+        <image name="button_main_zoomin" width="20" height="20"/>
+        <image name="button_main_zoomin_background" width="38" height="34"/>
+        <image name="button_main_zoomin_background_normal" width="38" height="34"/>
+        <image name="button_main_zoomout" width="20" height="20"/>
+        <image name="button_main_zoomout_background" width="38" height="34"/>
+        <image name="button_main_zoomout_background_normal" width="38" height="34"/>
+        <image name="icon_location_button" width="20" height="20"/>
+    </resources>
+</document>

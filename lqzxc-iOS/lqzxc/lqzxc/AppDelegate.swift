@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
 
     var window: UIWindow?
+    
     var mapManager: BMKMapManager!
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        LibraryAPI.sharedInstance.download("椒江黄岩路桥温岭")
         mapManager = BMKMapManager()
         var ret: Bool = mapManager.start("D3XPmtf5ObQGQ82RRdg1oI6p", generalDelegate: self)
         if(ret){

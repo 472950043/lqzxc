@@ -4,3 +4,4 @@
 
 #import <BaiduMapAPI/BMapKit.h>//引入所有的头文件
 #import <BaiduMapAPI/BMKMapView.h>//只引入所需的单个头文件
+#import "UIImageView+WebCache.h"
